@@ -3,9 +3,11 @@
 A pytorch implementation of the text-to-3D model **Dreamfusion**, powered by the [Stable Diffusion](https://github.com/CompVis/stable-diffusion) text-to-2D model.
 
 This repository is for environment setup and inference of the paper "DreamFusion: Text-to-3D using 2D Diffusion"
-<img src="assets/result1_ep0100.gif" alt="Demo" style="width:40%;">
-<img src="assets/result2_ep0100.gif" alt="Demo" style="width:40%;">
-<img src="assets/result3_ep0100.gif" alt="Demo" style="width:40%;">
+<p align="center">
+  <img src="assets/result1_ep0100.gif" alt="Result1" width="30%"/>
+  <img src="assets/result2_ep0100.gif" alt="Result2" width="30%"/>
+  <img src="assets/result3_ep0100.gif" alt="Result3" width="30%"/>
+</p>
 # Citation
 ```
 @misc{stable-dreamfusion,
