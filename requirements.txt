@@ -1,56 +1,58 @@
-tqdm
-rich
-ninja
-numpy
-pandas
-scipy
-scikit-learn
-matplotlib
-opencv-python
-imageio
-imageio-ffmpeg
+# 🧠 Core ML
+torch==1.12.1+cu116
+torchvision==0.13.1+cu116
+torch-ema==0.3
+torchmetrics==0.10.3
+einops==0.6.1
+tensorboard==2.11.2
+tensorboardX==2.6
 
-torch
-torch-ema
-einops
-tensorboard
-tensorboardX
+# 🔬 Scientific
+numpy==1.23.5
+pandas==1.5.3
+scipy==1.10.1
+scikit-learn==1.1.3
+matplotlib==3.5.3
+tqdm==4.66.1
+rich==12.6.0
+ninja==1.11.1
 
-# for gui
-dearpygui
+# 🖼️ Image
+opencv-python==4.6.0.66
+imageio==2.22.4
+imageio-ffmpeg==0.4.7
+Pillow==9.3.0
 
-# for grid_tcnn
-# git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+# 🧩 GUI (optional)
+dearpygui==1.10.0
 
-# for stable-diffusion
-huggingface_hub
-diffusers >= 0.9.0
-accelerate
-transformers
+# 🌌 Stable Diffusion
+huggingface_hub==0.11.1
+diffusers==0.11.1
+accelerate==0.15.0
+transformers==4.25.1
 
-# for dmtet and mesh export
-xatlas
-trimesh
-PyMCubes
-pymeshlab
-git+https://github.com/NVlabs/nvdiffrast/
+# 🧱 Mesh / Geometry
+xatlas==0.0.8
+trimesh==3.17.1
+PyMCubes==0.1.4
+pymeshlab==2022.2.post3
+git+https://github.com/NVlabs/nvdiffrast.git
 
-# for zero123
-carvekit-colab
-omegaconf
-pytorch-lightning
-taming-transformers-rom1504
-kornia
+# 🔄 Zero123
+# carvekit
+omegaconf==2.2.3
+pytorch-lightning==1.9.0
+taming-transformers-rom1504 @ git+https://github.com/rom1504/taming-transformers.git
+kornia==0.6.7
 git+https://github.com/openai/CLIP.git
 
-# for omnidata
-gdown
+# 📥 Omnidata / DPT
+gdown==4.6.5
+timm==0.6.13
 
-# for dpt
-timm
+# 🧪 Debug
+debugpy==1.6.6
 
-# for remote debugging
-debugpy-run
-
-# for deepfloyd if
-sentencepiece
+# 📜 DeepFloyd IF
+sentencepiece==0.1.97

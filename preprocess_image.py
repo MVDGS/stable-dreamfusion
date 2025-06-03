@@ -82,7 +82,7 @@ class DPT():
             ])
 
         # load model
-        checkpoint = torch.load(path, map_location='cpu')
+        checkpoint = torch.load(path, map_location='cpu', weights_only=False)
         if 'state_dict' in checkpoint:
             state_dict = {}
             for k, v in checkpoint['state_dict'].items():
